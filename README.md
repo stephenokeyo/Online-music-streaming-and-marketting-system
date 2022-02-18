@@ -21,6 +21,7 @@
     - [SOFTWARE DESIGN DESCRIPTION](#software-design-description)
   - [User interface Design](#user-interface-design)
   - [Login page/Sign in](#login-pagesign-in)
+  - [Registration/ Sign Up page](#registration-signup-page)
 
 ## Introduction
 
