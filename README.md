@@ -76,5 +76,13 @@ iv.   To develop database store for the system to integrate with other modules
  ## User interface Design
 
   ## Login page/Sign in 
+  The user login module will look like this image below.
+  
   
   ![sign up](https://user-images.githubusercontent.com/87860296/154762114-c4e2a2fe-5ed1-4480-b374-b64fefbac8c8.jpg)
+  
+  ## Registration/ Sign Up page
+The new visitors Registration module will look like this image below
+
+![sign in](https://user-images.githubusercontent.com/87860296/154763134-d3178985-bf57-4c87-925d-12585fa0aec4.jpg)
+
