@@ -33,15 +33,13 @@ This site mainly focuses and will mainly based for the music lovers to be able t
   i.To develop an online music streaming and marketing system for an individual to come and easily explore or access their favorite songs, their favorite artist in an organised way.
 
 ### Specific Objectives
-i. To develop a administrators module
-ii. To develop a users module
-iii. To develop a visitors module where they can come and explore e.g the homepage, login page, registration page and new releases page.
-iv.   To develop database store for the system to integrate with other modules
+i. To develop a users module
+ii. To develop a visitors module where they can come and explore e.g the homepage, login page, registration page and new releases page
 
 ## Users
 1. Visitors
 2. Authenticated user
-3. Admnistrator
+
 
 ## Technologies
 1. HTML,CSS,JavaScript
