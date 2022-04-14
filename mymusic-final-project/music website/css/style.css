@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #6771cc;
+}
+
+/* logo css */
+#logo {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    font-size: 34px;
+    color: #01ce69;
+    font-weight: bolder;
+}
+
+/* navbar css */
+#navbar {
+    height: 60px;
+    width: 925px;
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    border-radius: 20px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#navbar ul {
+    height: 100%;
+    width: 965px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#navbar ul li a {
+    height: 100%;
+    width: auto;
+    margin: 0 50px;
+    font-size: 20px;
+    margin-left: 0;
+    display: grid;
+    place-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(245, 225, 225);
+}
+
+#navbar ul li a:hover {
+    color: #01ce69;
+    border-bottom: 2px solid #01ce69;
+    width: calc(100% - 150px);
+}
+
+/* circle css*/
+#circle {
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background: #191a1915;
+    position: absolute;
+    left: 2%;
+    bottom: 9%;
+}
+
+/* side image css */
+#sideImage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* content css */
+#content {
+    height: auto;
+    width: 700px;
+    position: absolute;
+    right: 10%;
+    top: calc(50% - 215px);
+}
+
+#content h2 {
+    font-size: 220px;
+    color: #01ce69;
+}
+
+#content p {
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#content button {
+    height: 65px;
+    width: 210px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    margin: 20px 0;
+    font-size: 20px;
+    background: #01ce69;
+    color: #fff;
+    cursor: pointer;
+}
+
+#content button:hover {
+    color: #01ce69;
+    border: 2px solid #01ce69;
+    background: transparent;
+}
+
+/* social media accounts Links */
+#socialLinks {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#socialLinks a {
+    text-decoration: none;
+    margin: 12px 0;
+}
+
+#socialLinks a i {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #131613;
+    background: #ddfce9;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+#socialLinks a i:hover {
+    background: transparent;
+    color: #01ce69;
+    border: 2px solid #01ce69;
+}
+
+/* animated music icon */
+#music {
+    background: #01ce69;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    border: 2px solid #01ce69;
+    /* linked animation */
+    animation: animate 6s ease-in-out infinite;
+}
+
+/* animatin for music icon */
+@keyframes animate {
+    0%,100% {
+        background: #bdf007;
+        color: #fff;
+        right: 20%;
+    }
+
+    50% {
+        background: #01ce6900;
+        color: #01ce69;
+        right: 25%;
+    }
+}
